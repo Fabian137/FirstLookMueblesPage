@@ -1,0 +1,61 @@
+@media (max-width:380px){
+    h1.coolfontheader{margin-left: 1rem;}
+    h1.coolfontheader:hover{margin-left: 1rem;}
+    .grid{flex-direction: column;}
+    header{
+    background-color: rgb(24 26 27);
+    background-image: none;
+    }
+    .fot{
+        height: 38vh;
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 381px) and (max-width:767px){
+.musirech{
+    display: block;
+    width: auto;
+}
+body{color: white;}
+.coloretion{min-height: 27vh;}
+.fot{
+    height: 38vh;
+    flex-direction: column;
+}
+header{
+    background-color: rgb(24 26 27);
+    background-image: none;
+}
+.grid{flex-direction: column;}
+h1.coolfontheader{margin-left: 1.5rem;}
+h1.coolfontheader:hover{margin-left: 1.5rem;}
+}
+/*Catalogos imgs Carrusel
+img.fkimg {
+    background-size: cover;
+    height: 100vh;
+    margin-left: -17rem;
+    width: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.w-100{
+    width: 100%;
+}
+
+/* */
+@media (min-width: 612px){
+    header{
+        height: 100vh;
+        background: linear-gradient(
+    180deg, rgb(111 124 130 / 9%), rgb(24 26 27)), url(../img/SomeARTSCuadres2.jpg);
+        display: flex;
+        align-items: center;
+        background-size: cover;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    }
