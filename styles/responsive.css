@@ -1,17 +1,57 @@
-@media (max-width:380px){
-    h1.coolfontheader{margin-left: 1rem;}
-    h1.coolfontheader:hover{margin-left: 1rem;}
-    .grid{flex-direction: column;}
+@media (min-width: 320px) and (max-width:767px){
     header{
-    background-color: rgb(24 26 27);
-    background-image: none;
+        height: 100vh;
+        background: linear-gradient(
+        180deg, rgb(111 124 130 / 9%), rgb(24 26 27)), url(../img/popocateptlC.jpg);
+        /* display: flex; */
+        /* align-items: center; */
+        /* background-size: inherit; */
+        /* display: flex; */
+        /* justify-content: space-between; */
+        width: 100%;
+        background-position-x: center;
+        background-position-y: top;
     }
+    .contenedor{
+        /* max-width: fit-content; */
+    }
+    h2.coolfontheader{
+        /* background-image: url(../img/SomeARTSCuadres2.jpg); */
+        font-size: 2rem;
+        letter-spacing: 0rem;
+        /* background-position: top; */
+        /* -webkit-background-clipç: text; */
+        text-align: center;
+        color: white;
+        font-weight: 300;
+        font-family: sans-serif;
+        /* background-size: cover; */
+        /* text-align: center; */
+        /* letter-spacing: 1rem; */
+    }
+    h1.coolfontheader{
+        font-size: 7.5rem;
+        letter-spacing: 0rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        /* text-align: center; */
+        /* background-position: top; */
+        /* -webkit-background-clipç: text; */
+        color: white;
+        font-family: serif;
+        
+    }
+    /* h1.coolfontheader{margin-left: 1rem;} */
+    /* h1.coolfontheader:hover{margin-left: 1rem;} */
+    .grid{flex-direction: column;}
     .fot{
         height: 38vh;
         flex-direction: column;
     }
 }
 
+/*
 @media (min-width: 381px) and (max-width:767px){
 .musirech{
     display: block;
@@ -31,7 +71,7 @@ header{
 h1.coolfontheader{margin-left: 1.5rem;}
 h1.coolfontheader:hover{margin-left: 1.5rem;}
 }
-/*Catalogos imgs Carrusel
+Catalogos imgs Carrusel
 img.fkimg {
     background-size: cover;
     height: 100vh;
@@ -50,7 +90,7 @@ img.fkimg {
     header{
         height: 100vh;
         background: linear-gradient(
-    180deg, rgb(111 124 130 / 9%), rgb(24 26 27)), url(../img/SomeARTSCuadres2.jpg);
+    180deg, rgb(111 124 130 / 9%), rgb(24 26 27)), url(../img/popocateptlC.jpg);
         display: flex;
         align-items: center;
         background-size: cover;

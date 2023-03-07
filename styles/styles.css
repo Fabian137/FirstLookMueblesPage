@@ -22,7 +22,7 @@ body{background-color:#181a1b; color:#e4e3e3}
 header{
     height: 100vh;
     background: linear-gradient(
-180deg, rgb(111 124 130 / 9%), rgb(24 26 27)), url(../img/SomeARTSCuadres2.jpg);
+    180deg, rgb(111 124 130 / 9%), rgb(24 26 27)), url(../img/popocateptlC.jpg);
     display: flex;
     align-items: center;
     background-size: cover;
@@ -32,6 +32,16 @@ header{
 }
 h1.coolfontheader{
     font-size: 15vh;
+    background-image: url(../img/SomeARTSCuadres2.jpg);
+    background-position: top;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-size: cover;
+    text-align: center;
+    letter-spacing: 1rem;
+}
+h2.coolfontheader{
+    /* font-size: 15vh; */
     background-image: url(../img/SomeARTSCuadres2.jpg);
     background-position: top;
     -webkit-background-clip: text;
@@ -142,7 +152,7 @@ footer{
     height: 30vh;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 }
 .center{display: flex; justify-content: center; align-items: center;}
 .vpy{
