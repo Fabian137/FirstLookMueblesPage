@@ -11,6 +11,7 @@
         width: 100%;
         background-position-x: center;
         background-position-y: top;
+        /* width: min-content; */
     }
     .contenedor{
         /* max-width: fit-content; */
@@ -98,4 +99,14 @@ img.fkimg {
         justify-content: space-between;
         width: 100%;
     }
+    p{
+        font-size: 1.2rem;
     }
+    /* .fot{justify-content: space-between;} */
+}
+
+@media (min-width: 1024px){
+    .fot{
+    justify-content: space-between;
+    }
+}

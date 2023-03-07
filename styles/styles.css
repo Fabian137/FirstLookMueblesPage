@@ -10,12 +10,13 @@
 }
 .contenedor{max-width: 80%;margin: 0 auto;}
 .separador{margin-top: 4.7rem;}
-.text-center{text-align: center;}
+.text-center{text-align: center; width: 100%;}
 .position{
     background: linear-gradient(90deg, rgb(85, 6, 92),rgb(0, 217, 255));
     -webkit-background-clip: text;
     color: transparent;
 }
+p{color: #ececec;}
 body{background-color:#181a1b; color:#e4e3e3}
 /* Header */
 .headColor{background-color: #000000;}
@@ -32,23 +33,29 @@ header{
 }
 h1.coolfontheader{
     font-size: 15vh;
-    background-image: url(../img/SomeARTSCuadres2.jpg);
-    background-position: top;
-    -webkit-background-clip: text;
-    color: transparent;
-    background-size: cover;
-    text-align: center;
-    letter-spacing: 1rem;
+    /* background-image: url(../img/N8-Sunset.JPG); */
+    /* background-position: center; */
+    /* -webkit-background-clip: text; */
+    /* color: transparent; */
+    /* background-size: cover; */
+    /* text-align: center; */
+    color: white;
+    letter-spacing: 1.5rem;
+    font-family: serif;
 }
 h2.coolfontheader{
     /* font-size: 15vh; */
-    background-image: url(../img/SomeARTSCuadres2.jpg);
-    background-position: top;
-    -webkit-background-clip: text;
-    color: transparent;
-    background-size: cover;
+    font-size: 3rem;
+    /* background-image: url(../img/SomeARTSCuadres2.jpg); */
+    /* background-position: top; */
+    /* -webkit-background-clip: text; */
+    /* color: transparent; */
+    /* background-size: cover; */
+    color: white;
     text-align: center;
+    font-weight: 300;
     letter-spacing: 1rem;
+    font-family: sans-serif;
 }
 .card{
     flex-direction: row;
@@ -153,6 +160,8 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
+    
 }
 .center{display: flex; justify-content: center; align-items: center;}
 .vpy{
