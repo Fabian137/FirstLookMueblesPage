@@ -35,8 +35,8 @@
         letter-spacing: 0rem;
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
-        /* text-align: center; */
+        /* justify-content: center; */
+        text-align: center;
         /* background-position: top; */
         /* -webkit-background-clipç: text; */
         color: white;
@@ -54,23 +54,23 @@
 
 /*
 @media (min-width: 381px) and (max-width:767px){
-.musirech{
-    display: block;
-    width: auto;
-}
-body{color: white;}
-.coloretion{min-height: 27vh;}
-.fot{
-    height: 38vh;
-    flex-direction: column;
-}
-header{
-    background-color: rgb(24 26 27);
-    background-image: none;
-}
-.grid{flex-direction: column;}
-h1.coolfontheader{margin-left: 1.5rem;}
-h1.coolfontheader:hover{margin-left: 1.5rem;}
+    .musirech{
+        display: block;
+        width: auto;
+    }
+    body{color: white;}
+    .coloretion{min-height: 27vh;}
+    .fot{
+        height: 38vh;
+        flex-direction: column;
+    }
+    header{
+        background-color: rgb(24 26 27);
+        background-image: none;
+    }
+    .grid{flex-direction: column;}
+    h1.coolfontheader{margin-left: 1.5rem;}
+    h1.coolfontheader:hover{margin-left: 1.5rem;}
 }
 Catalogos imgs Carrusel
 img.fkimg {
@@ -91,22 +91,26 @@ img.fkimg {
     header{
         height: 100vh;
         background: linear-gradient(
-    180deg, rgb(111 124 130 / 9%), rgb(24 26 27)), url(../img/popocateptlC.jpg);
-        display: flex;
-        align-items: center;
-        background-size: cover;
-        display: flex;
-        justify-content: space-between;
-        width: 100%;
+            180deg, rgb(111 124 130 / 9%), rgb(24 26 27)), url(../img/popocateptlC.jpg);
+            display: flex;
+            align-items: center;
+            background-size: cover;
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+        }
+        p{
+            font-size: 1.2rem;
+        }
+
+    h1.coolfontheader{
+        text-align: center;
     }
-    p{
-        font-size: 1.2rem;
-    }
-    /* .fot{justify-content: space-between;} */
+        /* .fot{justify-content: space-between;} */
 }
 
 @media (min-width: 1024px){
     .fot{
-    justify-content: space-between;
+        justify-content: space-between;
     }
 }
