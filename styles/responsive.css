@@ -1,14 +1,14 @@
 @media (min-width: 320px) and (max-width:767px){
     header{
-        height: 100vh;
-        background: linear-gradient(
-        180deg, rgb(111 124 130 / 9%), rgb(24 26 27)), url(../img/popocateptlC.jpg);
+        /* height: 100vh; */
+        /* background: linear-gradient( */
+        /* 180deg, rgb(111 124 130 / 9%), rgb(24 26 27)), url(../img/popocateptlC.jpg); */
         /* display: flex; */
         /* align-items: center; */
         /* background-size: inherit; */
         /* display: flex; */
         /* justify-content: space-between; */
-        width: 100%;
+        /* width: 100%; */
         background-position-x: center;
         background-position-y: top;
         /* width: min-content; */
